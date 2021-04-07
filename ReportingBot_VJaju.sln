@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingBot_VJaju", "ReportingBot_VJaju\ReportingBot_VJaju.csproj", "{3B4EB32B-7141-4D43-993E-11D3D63AC1AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportingBot_VJaju", "ReportingBot_VJaju\ReportingBot_VJaju.csproj", "{3B4EB32B-7141-4D43-993E-11D3D63AC1AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reports", "Reports", "{79366B58-A58B-4E3C-838C-F7E09E3A7121}"
+	ProjectSection(SolutionItems) = preProject
+		..\Essential2021\Covid19Survey.pbix = ..\Essential2021\Covid19Survey.pbix
+		..\Essential2021\CovidSurvey.xls = ..\Essential2021\CovidSurvey.xls
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
