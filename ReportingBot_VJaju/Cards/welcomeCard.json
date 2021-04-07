@@ -1,0 +1,24 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "COVID-19 SURVEY",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "We are conducting a survey to help us better understand how the novel coronavirus (COVID-19) pandemic is affecting people's lives. To help us better understand how people's physical, emotional and mental health are being affected, we would like to ask you questions about your possible exposure to the virus, your experiences with testing and treatment and some questions about how your life has changed as a result of COVID-19 and the preventive measures that have been put in place.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ]
+}
